@@ -7,7 +7,7 @@ export default function Typing() {
       <div style={{position: 'absolute', height: '500px', width: '278px', top: '10px', right: '2px', fontFamily: "'Dr Sugiyama', cursive", fontSize: '21px', color: 'white', textAlign: 'left'}}>
         <Typewriter
           onInit={(typewriter) => {
-          typewriter.typeString(`fugace-`)
+          typewriter.typeString(``)
               .callFunction(() => {
                 console.log('String typed out!');
               })
